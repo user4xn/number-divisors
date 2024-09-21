@@ -5,8 +5,8 @@ import (
 )
 
 func main() {
-	n := 36
-	for i := 1; i <= n; i++ {
+	sequence := []int{24, 36, 46, 76}
+	for _, i := range sequence {
 		divisorsChallange(i)
 	}
 }
